@@ -29,7 +29,12 @@ img{
 
 .bg1{
     background-color: rgba(251, 212, 161, 0.737);
+    display: flex;
+
+
 }
+
+
 
 .index-body{
     background-color: rgba(251, 212, 161, 0.737);
@@ -46,9 +51,14 @@ p,li {
     font-family: "Georgia", "Arial", sans-serif;
 }
 
-ul li{
+.recipe-bodyu ul li{
     font-weight: 600;
 }
+
+ul {
+    list-style: none;
+}
+
 
 .index-body ul li{
     font-weight: 100;
