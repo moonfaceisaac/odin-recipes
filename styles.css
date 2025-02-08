@@ -15,7 +15,7 @@ h2{
 }
 
 .bg1 h2{
-    color: rgba(237, 48, 6, 0.858);
+    color: rgb(176, 119, 66);
 }
 
 img{
@@ -23,12 +23,17 @@ img{
     height: auto;
 }
 
-.bg2{
+.recipe-body{
     background-color: rgb(255, 242, 226);
 }
 
+.bg-all{
+    width: 1000px;
+    margin: 20px auto;
+}
+
 .bg1{
-    background-color: rgba(251, 212, 161, 0.737);
+    background-color: rgba(54, 200, 127, 0.389);
     display: flex;
 
 
@@ -38,6 +43,21 @@ img{
 
 .index-body{
     background-color: rgba(251, 212, 161, 0.737);
+    /* margin: 2px; */
+
+}
+
+.index-body ul{
+    background-color: rgba(54, 200, 127, 0.389);
+    width:1000px;
+    height: 550px;
+    padding: 0px;
+    align-content: center;
+    margin: auto;
+    box-sizing: border-box;
+  
+
+    /* box-sizing: border-box; */
 
 }
 
@@ -51,8 +71,9 @@ p,li {
     font-family: "Georgia", "Arial", sans-serif;
 }
 
-.recipe-bodyu ul li{
+.recipe-body .bg2 ul li{
     font-weight: 600;
+    /* text-align: center; */
 }
 
 ul {
@@ -63,7 +84,23 @@ ul {
 .index-body ul li{
     font-weight: 100;
     font-family: "Georgia", "Arial", sans-serif;
+    text-align: center;
+    padding: 40px;
+    margin:20px auto;
+    /* width: ; */
+    height: 100px;
+    width: 800px;
+    border: 4px solid rgba(39, 51, 38, 0.895);
+    /* vertical-align: center; */
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
 }
+.index-body ul li:hover{
+    border: 4px solid rgba(46, 220, 11, 0.895);
+
+}
+
 
 a {
     font-family: "Georgia", "Arial", sans-serif;
